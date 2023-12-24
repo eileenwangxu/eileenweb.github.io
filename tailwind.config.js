@@ -43,6 +43,7 @@ module.exports = {
       center: true,
       padding: "2rem",
     },
+  
     extend: {
       colors: {
         text: theme.colors.default.text_color.default,
@@ -65,6 +66,7 @@ module.exports = {
           "theme-light": theme.colors.darkmode.theme_color.theme_light,
           "theme-dark": theme.colors.darkmode.theme_color.theme_dark,
         },
+        "top-color": "#8e4d57",
       },
       fontSize: {
         base: font_base + "px",
