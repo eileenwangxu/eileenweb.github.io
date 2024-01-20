@@ -43,7 +43,6 @@ module.exports = {
       center: true,
       padding: "2rem",
     },
-  
     extend: {
       colors: {
         text: theme.colors.default.text_color.default,
@@ -53,6 +52,7 @@ module.exports = {
         secondary: theme.colors.default.theme_color.secondary,
         body: theme.colors.default.theme_color.body,
         border: theme.colors.default.theme_color.border,
+        "mask-grey":"#0c0c0c80",
         "theme-light": theme.colors.default.theme_color.theme_light,
         "theme-dark": theme.colors.default.theme_color.theme_dark,
         darkmode: {
@@ -66,7 +66,6 @@ module.exports = {
           "theme-light": theme.colors.darkmode.theme_color.theme_light,
           "theme-dark": theme.colors.darkmode.theme_color.theme_dark,
         },
-        "top-color": "#8e4d57",
       },
       fontSize: {
         base: font_base + "px",

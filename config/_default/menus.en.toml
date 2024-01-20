@@ -2,63 +2,50 @@
 
 # main menu
 [[main]]
-name = "Home"
+name = "HOME"
 url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "NEWS"
+url = "#news"
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "elements/"
+name = "BIOGRAPHY"
+url = "#biography"
 weight = 3
 
 [[main]]
-weight = 4
-name = "Gallery"
-hasChildren = true
+name = "PUBLICATIONS"
+url = "#publications"
+weight = 5
 
 [[main]]
-parent = "Gallery"
-name = "Blog"
-url = "blog/"
+name = "TALKS"
+url = "#talks"
+weight = 6
 
 [[main]]
-parent = "Gallery"
-name = "Contact"
-url = "contact/"
+name = "MISC."
+url = "#misc"
+weight = 7
 
-[[main]]
-parent = "Gallery"
-name = "Authors"
-url = "authors/"
-
-[[main]]
-parent = "Gallery"
-name = "Categories"
-url = "categories/"
-
-[[main]]
-parent = "Gallery"
-name = "404 Page"
-url = "404/"
 
 
 # footer menu
 [[footer]]
 name = "About"
-url = "about/"
+url = "https://wangxu.ai/#biography"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "elements/"
+name = "GIX"
+url = "https://gix.tsinghua.edu.cn/"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "privacy-policy/"
+name = "Template"
+url = "https://hugoplate.netlify.app/"
 weight = 3
+

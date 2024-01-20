@@ -5,14 +5,14 @@
   html {
     @apply text-base; }
   body {
-    @apply bg-body font-primary text-text dark:bg-darkmode-body dark:text-darkmode-text font-normal leading-relaxed; }
+    @apply bg-body dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text; }
   h1,
   h2,
   h3,
   h4,
   h5,
   h6 {
-    @apply font-secondary text-dark dark:text-darkmode-dark font-bold leading-tight; }
+    @apply font-secondary font-bold leading-tight text-dark dark:text-darkmode-dark; }
   h1,
   .h1 {
     @apply text-h1-sm md:text-h1; }
@@ -66,7 +66,7 @@
       @apply bg-primary dark:bg-darkmode-primary h-4 w-4 !important; }
   .content {
     @apply prose max-w-none;
-    @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em];
+    @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em] prose-headings:text-dark prose-headings:dark:text-darkmode-dark;
     @apply prose-h1:text-h1-sm md:prose-h1:text-h1;
     @apply prose-h2:text-h2-sm md:prose-h2:text-h2;
     @apply prose-h3:text-h3-sm md:prose-h3:text-h3;
@@ -103,7 +103,7 @@
   .navbar-nav {
     @apply text-center lg:text-left; }
   .nav-link {
-    @apply text-dark hover:text-primary dark:text-darkmode-dark block p-3 font-semibold transition lg:px-2 lg:py-3; }
+    @apply text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-semibold transition lg:px-2 lg:py-3; }
   .nav-dropdown {
     @apply mr-0; }
     .nav-dropdown > svg {
