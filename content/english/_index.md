@@ -1,10 +1,10 @@
 ---
 # Banner
 banner:
-  name: "Xu Wang | 王需"
+  name: "Ruiqing Wang | 王睿情"
   position: "Research Assistant Professor"
-  institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/), Tsinghua University"
-  email: "xu_wang [at] tsinghua [dot] edu [dot] cn"
+  institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/) of Tsinghua and Washington University"
+  email: "ruiqinguw@gmail.com"
   addr: "11-236, East Main Building, Tsinghua University, Beijing"
   google: "[Google Scholar](https://scholar.google.com/citations?user=xxYiqkIAAAAJ)"
   dblp: "[DBLP](https://dblp.uni-trier.de/pid/w/XuWang18.html)"
@@ -12,7 +12,7 @@ banner:
   image: "/images/banner_winter.jpg"
   image_title: "Tsinghua University"
   image_detail: "ISO 16 55MM f2.4 1/205s"
-  avatar: "/images/portrait.jpg"
+  avatar: "/images/ruiqing.jpeg"
   button:
     enable: false
     label: "Get Started For Free"
