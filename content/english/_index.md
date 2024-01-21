@@ -2,13 +2,9 @@
 # Banner
 banner:
   name: "Ruiqing Wang | 王睿情"
-  position: "Research Assistant Professor"
-  institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/) of Tsinghua and Washington University"
+  institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/)"
   email: "ruiqinguw@gmail.com"
-  addr: "11-236, East Main Building, Tsinghua University, Beijing"
-  google: "[Google Scholar](https://scholar.google.com/citations?user=xxYiqkIAAAAJ)"
-  dblp: "[DBLP](https://dblp.uni-trier.de/pid/w/XuWang18.html)"
-  scholarmate: "[科研之友](https://www.scholarmate.com/P/tjGwBf)"
+  addr: "Bellevue, Washington, US"
   image: "/images/banner_winter.jpg"
   image_title: "Tsinghua University"
   image_detail: "ISO 16 55MM f2.4 1/205s"
@@ -20,8 +16,7 @@ banner:
 
 # news
 news:
-  - date: "**01/15/2024**"
-    content: "Our work BEANet was accepted on **ACM Transactions on Sensor Networks**."
+
   - date: "**01/12/2024**"
     content: "Our work about Video Conference Systems was published on **IEEE Transactions on Consumer Electronics**."
   - date: "**01/01/2024**"
@@ -30,10 +25,8 @@ news:
   - date: "**12/19/2023**"
     content: "Our project **Automatic Glass Pattern Design** was certified by **Chinese Institute of Electronics**."
 
-  - date: "**12/01/2023**"
-    content: "Our papers **BlueKey** and **InNetScheduler** were accepted by **IEEE INFOCOM 2024**."
 
-biography: "<p>Xu Wang received his B.E. and Ph.D. degrees in software engineering from Tsinghua University, Beijing, in 2015 and 2020, respectively. He is a research assistant professor at the Global Innovation Exchange, Tsinghua University, Beijing. He is a member of CCF, ACM, and IEEE. His research interests include the Industrial Internet, Edge Computing, and Internet of Things.</p><p>He is also cooperating with Fuyao Group for digital intelligence manufacturing.</p>"
+biography: "Ruiqing Wang is currently a dual master's degree student in Data Science and Information Technology at Global Innovation Exchange, Tsinghua University, Beijing, and University of Washington, Seattle. She received a B.E. degree in Industrial Design from Beijing University of Technology in 2022. Her research interests include Human-Computer Interaction and AIoT. "
 
 # talks
 talks:

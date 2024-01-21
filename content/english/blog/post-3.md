@@ -1,23 +1,17 @@
 ---
-title: "How to build an Application with modern Technology"
+title: "A preliminary study of Interactive Hand Washer for Preschool Children"
 meta_title: ""
-description: "this is meta description"
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
-categories: ["Software"]
-author: "John Doe"
-tags: ["software", "tailwind"]
+description: ""
+date: 2020-07-31T05:00:00Z
+image: "/images/palm_painting/BCB875F3DDE7A490.jpg"
+categories: ["Projects"]
+author: "Ruiqing Wang"
+tags: ["User Study"]
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+This project aims to let preschool children love washing hands, form a habit, and also achieve the same effect as UN's seven-step method. I Organized a Father's Day palm painting activity to observe children’s hand washing performance; collected data on washing time, hand sanitizer use, whether their actions were standardized and complete.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+### Palm painting activity in the lab
+{{< gallery dir="images/palm_painting" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
-## Creative Design
-
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
