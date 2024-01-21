@@ -17,7 +17,7 @@ In modern society, people's pressure is increasing day by day. Although a modera
 4116 valid questionnaires were collected in the 2018 Beijing Youth Stress Survey, and the sample covers young people aged between 18 and 45 who work, study or live in Beijing.
 
 According to the survey:
-{{< image src="images/hemes_survey.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+{{ < image src="images/hemes_survey.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" > }}
 
 ## Opportunities
 Social media, music, and highly stimulating games have become the main ways to relieve stress, however, they are limited by venues and time, and that's the only thing you can do at a time. So in this case, it is of signiﬁcant importance to relieve stress anytime and anywhere.
@@ -26,7 +26,7 @@ Social media, music, and highly stimulating games have become the main ways to r
 ## Pressure of different groups
 By investigation and comparison, the former two groups have more pressure.
 
-{{< image src="images/hemes_inves.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+{{ < image src="images/hemes_inves.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" > }}
 
 ## The Negative Effects of Excessive Stress
 * Negative feelings: People with poor psychological quality will have a strong sense of frustration, losing the conﬁdence to do a good job, resulting in endless worries and anger, complaints and sorrow.
