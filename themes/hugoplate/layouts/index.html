@@ -1,101 +1,45 @@
 {{ define "main" }}
 <!-- Banner -->
 {{ with .Params.banner }}
-<section class="section pt-0">
+<section class="section pt-0 pb-0">
   <div class="w-screen mt-4">
     {{ with .image }}
     {{ with resources.Get . }}
-    <div class="pt-48 bg-cover bg-mask-grey bg-blend-overlay bg-center h-[32rem] bg-[url('{{ .RelPermalink }}')]">
+    <div class="pt-48 bg-cover bg-mask-grey bg-blend-overlay bg-center h-[36rem] bg-[url('{{ .RelPermalink }}')]">
       {{ end }}
       {{ end }}
       <div class="container">
-        <h1 class="text-white">
-          {{.image_title | markdownify}}
+        <h1 class="mb-4 text-white">
+          {{.name | markdownify}}
         </h1>
-        <p class="pt-8 text-white tracking-widest ">
-          {{.image_detail | markdownify}}
+        <p class="mb-4 text-2xl text-white">
+          <i class="fa-solid fa-envelope mr-2"></i> {{ .email | markdownify }}
         </p>
-
-      </div>
-    </div>
-
-
-
-  </div>
-  <div class="container">
-    <div class="row justify-center">
-      <div class="flex">
-        <div class="basis-5/6">
-          <div class="lg:col-7 prose-a:text-purple-600">
-            <h2 class="mb-4 mt-8 tracking-wide font-sans text-purple-600 ">
-              {{ .name | markdownify }}
-            </h2>
-            <p class="mb-8 text-2xl">
-              <i class="fa-solid fa-envelope"></i>  {{ .email | markdownify }}
-            </p>
-            <p class="mb-8 text-2xl">
-              <i class="fa-solid fa-location-pin"></i> {{ .addr | markdownify }}
-            </p>
-          </div>
-        </div>
-        <div class="basis-1/6 -mt-16">
-          {{ partial "image" (dict "Src" .avatar "Alt" "Avatar image" "Loading" "eager" "Class" "" ) }}
+        <p class="mb-4 text-2xl text-white">
+          <i class="fa-solid fa-location-pin mr-2"></i> {{ .addr | markdownify }}
+        </p>
+        <div class="mb-4 text-white">
+          <a
+                target="_blank"
+                aria-label="LinkedIn"
+                rel="nofollow noopener"
+                href="{{ .linkedin | safeURL }}">
+                <i class="fa-brands fa-linkedin text-4xl mr-2"></i>
+          </a>
+          <a
+                target="_blank"
+                aria-label="Github"
+                rel="nofollow noopener"
+                href="{{ .github | safeURL }}">
+                <i class="fa-brands fa-github text-4xl"></i>
+          </a>          
         </div>
       </div>
-
-
     </div>
-  </div>
   </div>
 </section>
 {{ end }}
 <!-- /Banner -->
-
-<!-- Projects -->
-
-  <section id="projects" class="section-sm bg-gradient">
-    <div class="container">
-      <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-list-check text-purple-600"></i> Projects</h3>
-      <div class="row">
-        <!-- blog posts -->
-        <div class="">
-          <div class="row">
-            {{ $paginator:= .Paginate (where .Site.RegularPages "Section" "blog") 4 }}
-            {{ range $paginator.Pages }}
-              <div class="md:col-3 mb-14">
-                {{ partial "components/blog-card" . }}
-              </div>
-            {{ end }}
-          </div>
-          {{ partial "components/pagination.html" . }}
-        </div>
-      
-       
-      </div>
-    </div>
-  </section>
-
-
-
-<!-- /Projects -->
-<!-- News -->
-<section id="news" class="section-sm bg-gradient">
-  <div class="container">
-    <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-rss text-purple-600"></i> NEWS</h3>
-    <ol class="list-disc">
-
-      {{ range $i, $e := .Params.news}}
-      <li>
-        <div class=" row items-center justify-between">
-          {{ partial "news" (dict "date" .date "content" .content ) }}
-        </div>
-      </li>
-      {{ end }}
-
-    </ol>
-  </div>
-</section>
-<!-- /News -->
 
 <!-- Bio -->
 <section id="biography" class="section-sm bg-gradient">
@@ -106,7 +50,6 @@
     </div>
 </section>
 <!-- /Bio -->
-
 {{ with site.GetPage "sections/publications" }}
 
 <section id="publications" class="section-sm bg-gradient">
@@ -132,6 +75,50 @@
 </section>
 
 {{ end }}
+<!-- Projects -->
+
+  <section id="projects" class="section-sm bg-gradient">
+    <div class="container">
+      <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-list-check text-purple-600"></i> Projects</h3>
+      <div class="row">
+        <!-- blog posts -->
+        <div class="">
+          <div class="row">
+            {{ $p :=  (where .Site.RegularPages "Section" "blog")}}
+            {{ $paginator:= .Paginate (where $p "Params.categories" "intersect" (slice "Projects"))  4 }}
+            {{ range $paginator.Pages }}
+              <div class="md:col-3 mb-14">
+                {{ partial "components/blog-card" . }}
+              </div>
+            {{ end }}
+          </div>
+          {{ partial "components/pagination.html" . }}
+        </div>
+      
+       
+      </div>
+    </div>
+  </section>
+
+
+
+
+<!-- /Projects -->
+
+<!-- Bio -->
+<section id="others" class="section-sm bg-gradient">
+  <div class="container">
+    <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-palette text-purple-600"></i> OTHER WORKS</h3>
+    {{ .Content }}
+    <p class="prose-base hover:prose-a:text-purple-600 prose-a:no-underline hover:prose-a:underline">
+      {{ .Params.others | markdownify }}
+  </p>
+</section>
+<!-- /Bio -->
+
+
+
+
 
 
 

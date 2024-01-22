@@ -7,24 +7,23 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "PROJECTS"
-url = "#projects"
+name = "PUBLICATIONS"
+url = "#publications"
 weight = 2
 
 [[main]]
-name = "NEWS"
-url = "#news"
+name = "PROJECTS"
+url = "#projects"
 weight = 3
 
 [[main]]
-name = "BIOGRAPHY"
-url = "#biography"
+name = "OTHER WORKS"
+url = "#others"
 weight = 4
 
-[[main]]
-name = "PUBLICATIONS"
-url = "#publications"
-weight = 5
+
+
+
 
 
 

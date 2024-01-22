@@ -3,7 +3,7 @@ title: "A preliminary study of Interactive Hand Washer for Preschool Children"
 meta_title: ""
 description: ""
 date: 2020-07-31T05:00:00Z
-image: "/images/palm_painting/BCB875F3DDE7A490.jpg"
+image: "/images/palm_painting/01.jpg"
 categories: ["Projects"]
 author: "Ruiqing Wang"
 tags: ["User Study"]

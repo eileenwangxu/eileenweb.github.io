@@ -1,14 +1,16 @@
 ---
 # Banner
 banner:
-  name: "Ruiqing Wang | 王睿情"
+  name: "Ruiqing Wang"
   institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/)"
-  email: "ruiqinguw@gmail.com"
+  email: "ruiqinguw [at] gmail [dot] com"
   addr: "Bellevue, Washington, US"
-  image: "/images/banner_winter.jpg"
+  image: "/images/510A8597.jpg"
   image_title: "Tsinghua University"
   image_detail: "ISO 16 55MM f2.4 1/205s"
   avatar: "/images/ruiqing.jpeg"
+  linkedin: "https://www.linkedin.com/in/ruiqing-wang-91ba08293/"
+  github: "https://github.com/ruiqingww"
   button:
     enable: false
     label: "Get Started For Free"
@@ -28,6 +30,7 @@ news:
 
 biography: "Ruiqing Wang is currently a dual master's degree student in Data Science and Information Technology at Global Innovation Exchange, Tsinghua University, Beijing, and University of Washington, Seattle. She received a B.E. degree in Industrial Design from Beijing University of Technology in 2022. Her research interests include Human-Computer Interaction and AIoT. "
 
+others: "[Read More](/blog/others/)"
 # talks
 talks:
   - title: "[智造时代：从数字先行到工业互联网](智造时代从数字先行到工业互联网.pdf)"
@@ -80,3 +83,4 @@ features:
       label: ""
       link: ""
 ---
+{{< gallery dir="/images/others/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
