@@ -4,7 +4,7 @@ meta_title: ""
 description: "this is meta description"
 date: 2024-01-19T05:00:00Z
 image: "/images/hemes.jpg"
-categories: ["Application", "Data"]
+categories: ["Projects"]
 author: "Ruiqing Wang"
 tags: ["Design", "tailwind"]
 draft: false
