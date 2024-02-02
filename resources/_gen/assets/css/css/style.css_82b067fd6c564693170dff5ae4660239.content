@@ -2429,29 +2429,8 @@ input#nav-toggle:checked ~ #nav-menu {
 .cursor-pointer {
   cursor: pointer;
 }
-.scroll-mt-20 {
-  scroll-margin-top: 5rem;
-}
 .scroll-mt-24 {
   scroll-margin-top: 6rem;
-}
-.scroll-mt-48 {
-  scroll-margin-top: 12rem;
-}
-.scroll-mt-96 {
-  scroll-margin-top: 24rem;
-}
-.scroll-py-1 {
-  scroll-padding-top: 0.25rem;
-  scroll-padding-bottom: 0.25rem;
-}
-.scroll-py-10 {
-  scroll-padding-top: 2.5rem;
-  scroll-padding-bottom: 2.5rem;
-}
-.scroll-py-20 {
-  scroll-padding-top: 5rem;
-  scroll-padding-bottom: 5rem;
 }
 .list-decimal {
   list-style-type: decimal;
