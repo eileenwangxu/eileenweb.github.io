@@ -2,30 +2,31 @@
 title: "University Interdisciplinary Cooperation APP UI Design"
 meta_title: ""
 description: "this is meta description"
-date: 2020-03-31T05:00:00Z
+date: 2020-05-01T05:00:00Z
 image: "/images/space_station.png"
 categories: ["Projects"]
-author: "Ruiqing Wang"
-tags: ["UI Design", "UX Design"]
+author: "Team"
+tags: ["UI Design"]
 draft: false
 ---
+A cross-major cooperation platform for college students is designed to help college students accumulate scientific research experience, explore cutting-edge academia, and facilitate the transformation of achievements. As the team leader, I was mainly responsible for product definition, process sorting, production of the high-fidelity interface and final integration.
 
-### Operation flow chart
+### 1 Operation flow chart
 
-{{< gallery dir="images/space_station/flow" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/space_station/flow" class="" command="Fit" option="" zoomable="true" >}}
 
-#### Interface sketches
+### 2 Interface sketches
 
-{{< gallery dir="images/space_station/sketches" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/space_station/sketches" class="" command="Fit" option="" zoomable="true" >}}
 
-#### Low fidelity interface
+### 3 Low fidelity interface
 
-{{< gallery dir="images/space_station/low" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/space_station/low" class="" command="Fit" option="" zoomable="true" >}}
 
-#### High fidelity interface
+### 4 High fidelity interface
 
-{{< gallery dir="images/space_station/high" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/space_station/high" class="" command="Fit" option="" zoomable="true" >}}
 
-#### User testing & Iteration
+### 5 User testing
 
-{{< gallery dir="images/space_station/iteration" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/space_station/iteration" class="" command="Fit" option="" zoomable="true" >}}

@@ -2,20 +2,18 @@
 title: "Interactive Olfactory Training Device for Alzheimer's Patients"
 meta_title: ""
 description: ""
-date: 2021-08-31T05:00:00Z
+date: 2021-09-15T05:00:00Z
 image: "/images/olfactory_training/alzh_device.png"
 categories: ["Projects"]
-author: "Ruiqing Wang"
-tags: ["Olfactory"]
+author: "Individual"
+tags: ["Hardware Design"]
 draft: false
 ---
+Integrated multisensory therapy with olfactory training by using metaphor design. Implemented a prototype with Arduino and self-designed PCB, providing an accessible and enjoyable rehabilitation training experience for elderly with Alzheimer's in the nursing home.
 
 ### Prototype
-{{< gallery dir="images/olfactory_training/prototype/" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< gallery dir="images/olfactory_training/prototype/" class="" command="Fit" option="" zoomable="true" >}}
 
-### Coding
-
-{{< gallery dir="images/olfactory_training/code/" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
 
 ### Working
 
