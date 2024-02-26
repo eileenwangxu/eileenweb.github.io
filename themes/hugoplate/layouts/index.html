@@ -76,6 +76,50 @@
 </section>
 
 {{ end }}
+
+<section id="experiences" class="section-sm bg-gradient">
+  
+ <div class="container">
+  <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-briefcase text-purple-600"></i> Experiences</h3>
+
+  <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-96 md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+
+    {{ range $i, $e := .Params.experiences }}
+    <div class="relative flex items-center md:-ml-[32.5rem]  md:flex-row-reverse group is-active">
+      <!-- Icon -->
+      <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:-translate-x-1/2">
+          <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+              <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+          </svg>
+      </div>
+        <!-- Card -->
+     
+        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white my-2 p-1 rounded border border-slate-200 shadow">
+        <div class="flex items-center">
+          {{ with .logo }}
+          {{ with resources.Get . }}
+          <img class="flex-none object-cover rounded-t-lg ml-5 h-24 w-24 md:rounded-none md:rounded-s-lg" src="{{ .RelPermalink }}" alt="">
+          {{ end }}
+          {{ end }}
+          <div class="flex-1 justify-between p-4 leading-normal">
+              <h5 class="mb-1 text-lg font-bold tracking-tight text-gray-900 dark:text-white">{{ .title }}</h5>
+              <p class="mb-1 font-normal text-gray-700 dark:text-gray-400">Advisor: {{ .advisor }}</p>
+              <p class="mb-1 font-normal text-gray-700 dark:text-gray-400">{{ .institution }}</p>
+              <p class="mb-1 font-normal text-gray-700 dark:text-gray-400">{{ .date }} {{ .loc }}</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    {{ end }}
+</div>  
+</div>
+
+   
+
+</div>
+
+</section>
+
 <!-- Projects -->
 
   <section id="projects" class="scroll-mt-24 section-sm bg-gradient">
