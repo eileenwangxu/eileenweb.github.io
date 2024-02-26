@@ -2306,10 +2306,6 @@ input#nav-toggle:checked ~ #nav-menu {
   margin-left: auto;
   margin-right: auto;
 }
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -2461,9 +2457,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .flex-1 {
   flex: 1 1 0%;
 }
-.flex-auto {
-  flex: 1 1 auto;
-}
 .flex-none {
   flex: none;
 }
@@ -2574,9 +2567,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-\[url\(\'\/images\/510A8597\.jpg\'\)\] {
-  background-image: url('/images/510A8597.jpg');
 }
 .bg-\[url\(\'\/images\/homepic\.jpg\'\)\] {
   background-image: url('/images/homepic.jpg');
@@ -3872,11 +3862,6 @@ input#nav-toggle:checked ~ #nav-menu {
   inset: 0px;
 }
 
-.before\:ml-1::before {
-  content: var(--tw-content);
-  margin-left: 0.25rem;
-}
-
 .before\:ml-5::before {
   content: var(--tw-content);
   margin-left: 1.25rem;
@@ -4019,28 +4004,8 @@ input#nav-toggle:checked ~ #nav-menu {
     order: 2;
   }
 
-  .md\:-ml-64 {
-    margin-left: -16rem;
-  }
-
-  .md\:-ml-96 {
-    margin-left: -24rem;
-  }
-
   .md\:-ml-\[32\.5rem\] {
     margin-left: -32.5rem;
-  }
-
-  .md\:-ml-\[32rem\] {
-    margin-left: -32rem;
-  }
-
-  .md\:ml-64 {
-    margin-left: 16rem;
-  }
-
-  .md\:ml-\[-64\] {
-    margin-left: -64;
   }
 
   .md\:block {
@@ -4051,38 +4016,12 @@ input#nav-toggle:checked ~ #nav-menu {
     display: none;
   }
 
-  .md\:h-24 {
-    height: 6rem;
-  }
-
-  .md\:h-auto {
-    height: auto;
-  }
-
-  .md\:w-24 {
-    width: 6rem;
-  }
-
   .md\:w-\[calc\(50\%-2\.5rem\)\] {
     width: calc(50% - 2.5rem);
   }
 
-  .md\:-translate-x-1\/2 {
-    --tw-translate-x: -50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .md\:translate-x-1\/2 {
-    --tw-translate-x: 50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
-  }
-
-  .md\:justify-normal {
-    justify-content: normal;
   }
 
   .md\:rounded-none {
@@ -4099,27 +4038,6 @@ input#nav-toggle:checked ~ #nav-menu {
     background-color: rgb(254 240 138 / var(--tw-bg-opacity));
   }
 
-  .md\:before\:mx-auto::before {
-    content: var(--tw-content);
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .md\:before\:ml-10::before {
-    content: var(--tw-content);
-    margin-left: 2.5rem;
-  }
-
-  .md\:before\:ml-36::before {
-    content: var(--tw-content);
-    margin-left: 9rem;
-  }
-
-  .md\:before\:ml-64::before {
-    content: var(--tw-content);
-    margin-left: 16rem;
-  }
-
   .md\:before\:ml-96::before {
     content: var(--tw-content);
     margin-left: 24rem;
@@ -4131,10 +4049,6 @@ input#nav-toggle:checked ~ #nav-menu {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .md\:odd\:flex-row-reverse:nth-child(odd) {
-    flex-direction: row-reverse;
-  }
-
   .group:nth-child(odd) .md\:group-odd\:-translate-x-1\/2 {
     --tw-translate-x: -50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -4142,11 +4056,6 @@ input#nav-toggle:checked ~ #nav-menu {
 
   .group:nth-child(even) .md\:group-even\:-translate-x-1\/2 {
     --tw-translate-x: -50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .group:nth-child(even) .md\:group-even\:translate-x-1\/2 {
-    --tw-translate-x: 50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
