@@ -77,21 +77,22 @@
 
 {{ end }}
 
+<!-- Experience -->
 <section id="experiences" class="section-sm bg-gradient">
   
  <div class="container">
-  <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-briefcase text-purple-600"></i> Experiences</h3>
+  <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-briefcase text-purple-600"></i> EXPERIENCES </h3>
 
   <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-96 md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
 
     {{ range $i, $e := .Params.experiences }}
     {{ if eq $i 0 }}
-    <div class="relative flex items-center md:-ml-[32.5rem]  md:flex-row-reverse group is-active">
+    <div class="relative flex items-center md:-ml-[33.4rem]  md:flex-row-reverse group is-active">
     {{ else }}
-    <div class="relative flex items-center md:-ml-[32.5rem]  md:flex-row-reverse group ">
+    <div class="relative flex items-center md:-ml-[33.4rem]  md:flex-row-reverse group ">
     {{ end }}
       <!-- Icon -->
-      <div class="flex items-center justify-center w-10 h-10 rounded-full border border-2  border-purple-600 bg-white group-[.is-active]:bg-purple-600 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:-translate-x-1/2">
+      <div class="flex items-center justify-center w-8 h-8 rounded-full border border-2  border-purple-600 bg-white group-[.is-active]:bg-purple-600 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:-translate-x-1/2">
           
       </div>
         <!-- Card -->
@@ -126,7 +127,7 @@
 
   <section id="projects" class="scroll-mt-24 section-sm bg-gradient">
     <div class="container">
-      <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-list-check text-purple-600"></i> Projects</h3>
+      <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-list-check text-purple-600"></i> PROJECTS </h3>
       <div class="row">
         <!-- blog posts -->
         <div class="">
@@ -148,20 +149,15 @@
   </section>
 
 
-
-
-<!-- /Projects -->
-
-<!-- Bio -->
+<!--Other -->
 <section id="others" class="scroll-mt-24 section-sm bg-gradient">
   <div class="container">
     <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-palette text-purple-600"></i> OTHER WORKS</h3>
     {{ .Content }}
-    <p class="prose-base hover:prose-a:text-purple-600 prose-a:no-underline hover:prose-a:underline">
+    <p class="prose-base hover:prose-a:text-purple-600 prose-a:no-underline prose-a:font-bold hover:prose-a:underline">
       {{ .Params.others | markdownify }}
   </p>
 </section>
-<!-- /Bio -->
 
 
 
