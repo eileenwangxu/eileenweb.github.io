@@ -5,7 +5,7 @@ banner:
   institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/)"
   email: "ruiqinguw [at] gmail [dot] com"
   addr: "Bellevue, Washington, US"
-  image: "/images/510A8597.jpg"
+  image: "/images/homepic.jpg"
   image_title: "Tsinghua University"
   image_detail: "ISO 16 55MM f2.4 1/205s"
   avatar: "/images/ruiqing.jpeg"
@@ -28,7 +28,7 @@ news:
     content: "Our project **Automatic Glass Pattern Design** was certified by **Chinese Institute of Electronics**."
 
 
-biography: "Ruiqing Wang is currently a dual master's degree student in Data Science and Information Technology at Global Innovation Exchange, Tsinghua University, Beijing, and University of Washington, Seattle. She received a B.E. degree in Industrial Design from Beijing University of Technology in 2022. Her research interests include Human-Computer Interaction and AIoT. "
+biography: "Hello! I am Eileen, an HCI researcher, currently pursuing my Master's degree in Data Science and Information Technology at Global Innovation Exchange, University of Washington and Tsinghua University. Drawing inspiration from Artificial Intelligence and Mixed Reality, I designed a collaborative system that seamlessly integrates the virtual and the real world and proposed AI models to facilitate interactions between humans and devices, aiming to enhance health and overall well-being."
 
 others: "[Read More](/blog/others/)"
 # talks
