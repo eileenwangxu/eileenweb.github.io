@@ -28,7 +28,7 @@ news:
     content: "Our project **Automatic Glass Pattern Design** was certified by **Chinese Institute of Electronics**."
 
 
-biography: "Hello! I am Eileen, an HCI researcher, currently pursuing my Master's degree in Data Science and Information Technology at Global Innovation Exchange, University of Washington and Tsinghua University. Drawing inspiration from Artificial Intelligence and Mixed Reality, I designed a collaborative system that seamlessly integrates the virtual and the real world and proposed AI models to facilitate interactions between humans and devices, aiming to enhance health and overall well-being."
+biography: "Hello! I am Eileen, an HCI researcher, currently pursuing my Master's degree in Data Science and Information Technology at [Global Innovation Exchange (GIX)](https://gix.uw.edu/program/dual-degree/). Drawing inspiration from Artificial Intelligence and Mixed Reality, I designed a collaborative system that seamlessly integrates the virtual and the real world and proposed AI models to facilitate interactions between humans and devices, aiming to enhance health and overall well-being."
 
 others: "[Read More](/blog/others/)"
 # talks

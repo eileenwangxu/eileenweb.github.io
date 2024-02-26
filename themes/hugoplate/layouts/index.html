@@ -6,10 +6,10 @@
   <div class="w-screen mt-4">
     {{ with .image }}
     {{ with resources.Get . }}
-    <div class="pt-48 bg-cover bg-mask-grey bg-blend-overlay bg-center h-[36rem] bg-[url('{{ .RelPermalink }}')]">
+    <div class="pt-48 bg-cover bg-center h-[36rem] bg-[url('{{ .RelPermalink }}')]">
       {{ end }}
       {{ end }}
-      <div class="container">
+      <div class="container pt-36">
         <h1 class="mb-4 text-white">
           {{.name | markdownify}}
         </h1>
@@ -19,7 +19,7 @@
         <p class="mb-4 text-2xl text-white">
           <i class="fa-solid fa-location-pin mr-2"></i> {{ .addr | markdownify }}
         </p>
-        <div class="mb-4 text-white">
+        <!-- <div class="mb-4 text-white">
           <a
                 target="_blank"
                 aria-label="LinkedIn"
@@ -34,7 +34,7 @@
                 href="{{ .github | safeURL }}">
                 <i class="fa-brands fa-github text-4xl"></i>
           </a>          
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
