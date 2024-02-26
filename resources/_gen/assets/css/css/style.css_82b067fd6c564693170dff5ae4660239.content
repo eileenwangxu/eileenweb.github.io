@@ -2578,6 +2578,9 @@ input#nav-toggle:checked ~ #nav-menu {
 .bg-\[url\(\'\/images\/510A8597\.jpg\'\)\] {
   background-image: url('/images/510A8597.jpg');
 }
+.bg-\[url\(\'\/images\/homepic\.jpg\'\)\] {
+  background-image: url('/images/homepic.jpg');
+}
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
