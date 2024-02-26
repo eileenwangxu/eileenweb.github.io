@@ -41,6 +41,30 @@ misc:
   - title: "[清华大学计算机学科群推荐学术会议和期刊列表](https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf)"
   - title: "[清华大学全球创新学院招生](https://gix.tsinghua.edu.cn/zs1.htm)"
 
+# Experiences
+experiences:
+  - title: "Research Assistant Professor"
+    logo: "/images/tsinghua-small.png"
+    institution: "University of Washinton"
+    advisor: "Yunhao Liu"
+    date: "Jan 2022-Feb 2024"
+    loc: "Seattle, US"
+
+  - title: "Research Assistant Professor"
+    logo: "/images/tsinghua-small.png"
+    institution: "University of Washinton"
+    advisor: "Yunhao Liu"
+    date: "Jan 2021-Feb 2021"
+    loc: "Seattle, US"
+  
+  - title: "Research Assistant Professor"
+    logo: "/images/tsinghua-small.png"
+    institution: "University of Washinton"
+    advisor: "Yunhao Liu"
+    date: "Jan 2021-Feb 2021"
+    loc: "Seattle, US"
+    
+
 # Features
 features:
   - title: "What's Included in Hugoplate"
