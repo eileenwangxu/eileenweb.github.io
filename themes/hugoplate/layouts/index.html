@@ -97,11 +97,11 @@
       </div>
         <!-- Card -->
      
-        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-theme-light dark:bg-darkmode-theme-light my-2 p-1 rounded border border-slate-200 shadow">
+        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-theme-light dark:bg-darkmode-theme-light my-2 sm:mx-2 p-1 rounded border border-slate-200 shadow">
         <div class="flex items-center">
           {{ with .logo }}
           {{ with resources.Get . }}
-          <img class="flex-none object-cover rounded-t-lg ml-5 h-24 w-24 md:rounded-none md:rounded-s-lg" src="{{ .RelPermalink }}" alt="">
+          <img class="flex-none object-cover rounded-t-lg ml-5 sm:h-12 sm:w-12 h-24 w-24 md:rounded-none md:rounded-s-lg" src="{{ .RelPermalink }}" alt="">
           {{ end }}
           {{ end }}
           <div class="flex-1 justify-between p-4 leading-normal">
