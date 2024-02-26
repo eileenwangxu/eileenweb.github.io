@@ -31,7 +31,9 @@ news:
 biography: "I am an HCI researcher, currently pursuing my Master's degree in Data Science and Information Technology at [Global Innovation Exchange (GIX)](https://gix.uw.edu/program/dual-degree/). Drawing inspiration from Artificial Intelligence and Mixed Reality, I designed a collaborative system that seamlessly integrates the virtual and the real world and proposed AI models to facilitate interactions between humans and devices, aiming to enhance health and overall well-being."
 
 # Other
-others: "[Read More 👀](/blog/others/)"
+others: 
+  readmore: "Read More 👀"
+  readmoreurl: "/blog/others"
 
 # Experiences
 experiences:

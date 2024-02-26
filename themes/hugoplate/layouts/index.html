@@ -78,26 +78,26 @@
 {{ end }}
 
 <!-- Experience -->
-<section id="experiences" class="section-sm bg-gradient">
+<section id="experiences" class="scroll-mt-24 section-sm bg-gradient">
   
  <div class="container">
   <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-briefcase text-purple-600"></i> EXPERIENCES </h3>
 
-  <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-96 md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+  <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[6.75rem] lg:before:ml-[14.75rem] xl:before:ml-[22.75rem] 2xl:before:ml-96 md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
 
     {{ range $i, $e := .Params.experiences }}
     {{ if eq $i 0 }}
-    <div class="relative flex items-center md:-ml-[33.4rem]  md:flex-row-reverse group is-active">
+    <div class="relative flex items-center  md:-ml-[33.4rem]  md:flex-row-reverse group is-active">
     {{ else }}
-    <div class="relative flex items-center md:-ml-[33.4rem]  md:flex-row-reverse group ">
+    <div class="relative flex items-center  md:-ml-[33.4rem]  md:flex-row-reverse group ">
     {{ end }}
       <!-- Icon -->
-      <div class="flex items-center justify-center w-8 h-8 rounded-full border border-2  border-purple-600 bg-white group-[.is-active]:bg-purple-600 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:-translate-x-1/2">
+      <div class="flex items-center justify-center w-8 h-8 rounded-full border border-2  border-purple-600 bg-theme-light dark:bg-darkmode-theme-light group-[.is-active]:bg-purple-600 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:-translate-x-1/2">
           
       </div>
         <!-- Card -->
      
-        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white my-2 p-1 rounded border border-slate-200 shadow">
+        <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-theme-light dark:bg-darkmode-theme-light my-2 p-1 rounded border border-slate-200 shadow">
         <div class="flex items-center">
           {{ with .logo }}
           {{ with resources.Get . }}
@@ -129,7 +129,22 @@
     <div class="container">
       <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-list-check text-purple-600"></i> PROJECTS </h3>
       <div class="row">
-        <!-- blog posts -->
+        <div class="swiper testimonial-slider">
+          <div class="swiper-wrapper">
+            {{ $p :=  (where .Site.RegularPages "Section" "blog")}}
+            {{ range (where $p "Params.categories" "intersect" (slice "Projects")) }}
+              <div class="swiper-slide">
+                <div class="md:col-12 mb-14">
+                  {{ partial "components/blog-card" . }}
+                </div>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+          <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+        
+      <!-- <div class="row">
+        
         <div class="">
           <div class="row">
             {{ $p :=  (where .Site.RegularPages "Section" "blog")}}
@@ -144,7 +159,7 @@
         </div>
       
        
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -154,9 +169,9 @@
   <div class="container">
     <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-palette text-purple-600"></i> OTHER WORKS</h3>
     {{ .Content }}
-    <p class="prose-base hover:prose-a:text-purple-600 prose-a:no-underline prose-a:font-bold hover:prose-a:underline">
-      {{ .Params.others | markdownify }}
-  </p>
+    <a class="btn btn-outline-primary btn-sm" href="{{ .Params.others.readmoreurl | safeURL }}">
+      {{ .Params.others.readmore | markdownify }}
+    </a>
 </section>
 
 
