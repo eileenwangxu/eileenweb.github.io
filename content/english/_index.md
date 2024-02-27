@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  name: "Ruiqing Wang"
+  name: "Hi, I'm Ruiqing Wang"
   institution: "[Global Innovation Exchange](https://gix.tsinghua.edu.cn/)"
   email: "ruiqinguw [at] gmail [dot] com"
   addr: "Bellevue, Washington, US"
@@ -27,42 +27,78 @@ news:
   - date: "**12/19/2023**"
     content: "Our project **Automatic Glass Pattern Design** was certified by **Chinese Institute of Electronics**."
 
+# Bio
+biography: "I am an HCI researcher, currently pursuing my Master's degree in Data Science and Information Technology at [Global Innovation Exchange (GIX)](https://gix.uw.edu/program/dual-degree/). Drawing inspiration from Artificial Intelligence and Mixed Reality, I designed a collaborative system that seamlessly integrates the virtual and the real world and proposed AI models to facilitate interactions between humans and devices, aiming to enhance health and overall well-being."
 
-biography: "Hello! I am Eileen, an HCI researcher, currently pursuing my Master's degree in Data Science and Information Technology at [Global Innovation Exchange (GIX)](https://gix.uw.edu/program/dual-degree/). Drawing inspiration from Artificial Intelligence and Mixed Reality, I designed a collaborative system that seamlessly integrates the virtual and the real world and proposed AI models to facilitate interactions between humans and devices, aiming to enhance health and overall well-being."
-
-others: "[Read More](/blog/others/)"
-# talks
-talks:
-  - title: "[智造时代：从数字先行到工业互联网](智造时代从数字先行到工业互联网.pdf)"
-
-# misc
-misc:
-  - title: "[CCF推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/CN/)"
-  - title: "[清华大学计算机学科群推荐学术会议和期刊列表](https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf)"
-  - title: "[清华大学全球创新学院招生](https://gix.tsinghua.edu.cn/zs1.htm)"
+# Other
+others: 
+  readmore: "Read More 👀"
+  readmoreurl: "/blog/others"
 
 # Experiences
 experiences:
-  - title: "Research Assistant Professor"
-    logo: "/images/tsinghua-small.png"
-    institution: "University of Washinton"
-    advisor: "Yunhao Liu"
-    date: "Jan 2022-Feb 2024"
-    loc: "Seattle, US"
+  - title: "University of Washington"
+    logo: "/images/uw2.jpg"
+    institution: "M. S. Technology Innovation, Global Innovation Exchange (GIX)"
+    advisor: ""
+    date: "2023 - 2025"
+    loc: "| Seattle, Washington, US"
 
-  - title: "Research Assistant Professor"
+  - title: "ACM Turing Award Celebration Conference China"
+    logo: "/images/acm.png"
+    institution: "One of the Ceremony Chairs"
+    advisor: ""
+    date: "2023"
+    loc: "| Wuhan, China"
+
+  - title: "Tsinghua University"
     logo: "/images/tsinghua-small.png"
-    institution: "University of Washinton"
-    advisor: "Yunhao Liu"
-    date: "Jan 2021-Feb 2021"
-    loc: "Seattle, US"
+    institution: "M. Eng. Data Science & Information Technology, GIX"
+    advisor: "Advisor: Department Dean Prof. Yunhao Liu"
+    date: "2022 - 2023"
+    loc: "| Beijing, China"
+
+  - title: "Institute of Trustworthy Networks and Systems in Tsinghua University"
+    logo: "/images/tsinghua-small.png"
+    institution: "Research Intern"
+    advisor: "Advisor: Institute Director Prof. Yunhao Liu"
+    date: "2023"
+    loc: "| Beijing, China"
   
-  - title: "Research Assistant Professor"
-    logo: "/images/tsinghua-small.png"
-    institution: "University of Washinton"
-    advisor: "Yunhao Liu"
-    date: "Jan 2021-Feb 2021"
-    loc: "Seattle, US"
+  - title: "Information Department in Fuyao Group"
+    logo: "/images/fuyao.png"
+    institution: "Internship"
+    advisor: ""
+    date: "2022"
+    loc: "| Fuzhou, China"
+
+  - title: "The Future Laboratory in Tsinghua University"
+    logo: "/images/futurelab.png"
+    institution: "Research Intern"
+    advisor: "Advisor: Laboratory Director Prof. Yingqing Xu"
+    date: "2021"
+    loc: "| Beijing, China"
+
+  - title: "Design Innovation Institute in Shanghai Jiao Tong University"
+    logo: "/images/sjtu.jpg"
+    institution: "Research Intern"
+    advisor: "Advisor: HCI Lab Director Prof. Zhenyu Gu"
+    date: "2021"
+    loc: "| Shanghai, China"
+
+  - title: "User Experience Department in Baidu"
+    logo: "/images/baidu3.png"
+    institution: "Internship"
+    advisor: ""
+    date: "2020"
+    loc: "| Beijing, China"
+
+  - title: "Beijing University of Technology"
+    logo: "/images/bjut.png"
+    institution: "B. Eng. Industrial Design"
+    advisor: "Advisor: Prof. Hong Hu"
+    date: "2018 - 2022"
+    loc: "| Beijing, China"
     
 
 # Features
@@ -107,4 +143,5 @@ features:
       label: ""
       link: ""
 ---
-{{< gallery dir="/images/others/gallery" class=""  webp="false" command="Fit" option="" zoomable="true" >}}
+
+{{< gallery dir="/images/others/gallery" class="" command="Fit" option="" zoomable="false" >}}

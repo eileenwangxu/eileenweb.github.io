@@ -2,13 +2,14 @@
 title: "Smart Home Multimodality Mediation System"
 meta_title: ""
 description: ""
-date: 2021-06-30T05:00:00Z
-image: "/images/smarthome/01.png"
+date: 2021-08-01T05:00:00Z
+image: "/images/smarthomepic.png"
 categories: ["Projects"]
-author: "Ruiqing Wang"
-tags: ["Smart Home"]
+author: "Team"
+tags: ["System Design"]
 draft: false
 ---
+Designed a dynamic system integrated vision, audio and olfactory modalities adapting user’s physiological status. Implemented a prototype with Unity, Arduino and MQTT. This work is sponsored by Huawei Technologies. 
 
-{{< image src="images/smarthome/system.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+{{< gallery dir="images/smarthome" class="" command="Fit" option="" zoomable="true" >}}
 
