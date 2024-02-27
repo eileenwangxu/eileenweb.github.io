@@ -68,7 +68,7 @@
 
     <ol class="list-decimal">
       {{ range $i, $e := .Params.publications }}
-      <li class="px-1"> {{ partial "publications" (dict "order" $i "item" .) }} </li>
+      <li class="ml-2"> {{ partial "publications" (dict "order" $i "item" .) }} </li>
       {{ end }}
     </ol>
   </div>
