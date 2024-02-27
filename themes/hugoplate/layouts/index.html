@@ -46,11 +46,13 @@
 <section id="biography" class="section-sm bg-gradient">
   <div class="container">
     <h3 class="text-purple-600 mb-8"><i class="fa-solid fa-user text-purple-600"></i> BIOGRAPHY</h3>
-    <div class="prose-xl">
+    <div class="prose-xl px-4">
       {{ .Params.biography | markdownify }}
     </div>
 </section>
-<!-- /Bio -->
+
+
+<!-- Publication -->
 {{ with site.GetPage "sections/publications" }}
 
 <section id="publications" class="scroll-mt-24 section-sm bg-gradient">
@@ -68,7 +70,7 @@
 
     <ol class="list-decimal">
       {{ range $i, $e := .Params.publications }}
-      <li class="ml-2"> {{ partial "publications" (dict "order" $i "item" .) }} </li>
+      <li class="ml-4"> {{ partial "publications" (dict "order" $i "item" .) }} </li>
       {{ end }}
     </ol>
   </div>

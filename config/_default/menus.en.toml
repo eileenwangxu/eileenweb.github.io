@@ -18,14 +18,14 @@ weight = 3
 
 [[main]]
 name = "PROJECTS"
-url = "#projects"
+url = "/categories/projects/"
 weight = 4
 
 
 
 [[main]]
 name = "OTHER WORKS"
-url = "#others"
+url = "/blog/others/"
 weight = 5
 
 
