@@ -18,14 +18,12 @@ Recognizing the growing trend of individuals desiring companionship but lacking 
 ### 1. Design Process
 
 #### 1.1 Ideation
-{{<gallery dir="images/grow/test" class="" command="Fit" option="" zoomable="true" >}}
+{{<image src="images/grow/idea.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
 #### 1.2 Prototypes
 ##### *Expandable Structure*
-{{<image src="images/grow/1.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
-The expandability of this structure is limited to a single dimension. As it extends horizontally, its vertical height diminishes, posing a drawback for its suitability as a plant pot. 
-{{<image src="images/grow/2.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
-This structure has the capability to expand in both vertical and horizontal directions. Additionally, its reduced need for folding simplifies the task of finding a suitable material for its construction.
+{{<image src="images/grow/process.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+The expandability of the left structure is limited to a single dimension. As it extends horizontally, its vertical height diminishes, posing a drawback for its suitability as a plant pot. The right structure has the capability to expand in both vertical and horizontal directions. Additionally, its reduced need for folding simplifies the task of finding a suitable material for its construction.
 
 ##### *Material*
 {{<image src="images/grow/3.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}

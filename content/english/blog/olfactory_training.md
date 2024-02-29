@@ -22,7 +22,7 @@ In response to these findings, I innovated a device inspired by the familiar for
 
 This project, adhering to medical guidelines for olfactory training, employs Arduino for hardware integration and programming. This setup controls an ultrasonic atomizer to cycle through four distinct scents sequentially. Each scent is paired with corresponding lights and sounds, enhancing guidance and support for memory recall in patients. Users can easily switch modes and adjust scent concentrations using an infrared remote control.
 
-{{< gallery dir="images/olfactory_training/prototype/" class="" command="Fit" option="" zoomable="true" >}}
+{{<gallery dir="images/olfactory_training/prototype/" class="" command="Fit" option="" zoomable="false" >}}
 
 ### 3. Application scenarios
 The design incorporates two notable innovations for enhanced usability:
@@ -31,5 +31,5 @@ The design incorporates two notable innovations for enhanced usability:
 
 {{< video src="images/olfvideo.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
 
-{{< gallery dir="images/olfactory_training/working/" class="" command="Fit" option="" zoomable="true" >}}
+{{<gallery dir="images/olfactory_training/working/" class="" command="Fit" option="" zoomable="false" >}}
 

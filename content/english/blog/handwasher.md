@@ -12,5 +12,8 @@ draft: false
 Organized a Father's Day palm painting activity to observe children’s hand washing performance; collected data on washing time, hand sanitizer use, whether their actions were standardized and complete. Prototyped to verify whether children would get into the habit of hand washing; aimed to achieve the same effect as UN's seven-step method after children engaged with the model.
 
 ### Findings
-{{<gallery dir="images/palm_painting" class="" command="Fit" option="" zoomable="true" >}}
+{{<image src="images/palm_painting/02.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+
+{{<image src="images/palm_painting/01.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+
 

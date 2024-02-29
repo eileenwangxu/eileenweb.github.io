@@ -37,10 +37,10 @@ Through the oxidation modification of concentrated nitric acid and sulfuric acid
 3. The surface nitrogen-containing and oxygen-containing functional groups are increased.
 4. Its adsorption capacity enhanced.
 
-{{< gallery dir="images/scent_camera/surface" class="" command="Fit" option="" zoomable="true" >}}
+{{<image src="images/scent_camera/surface/01.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
 ### 2. Ion migration spectroscopy for material adsorption performance analysis
 
 In the process, I found that the existing physical or chemical adsorption apparatus was only suitable for analyzing the adsorption capacity of the material to a specific or several mixed gases, which could not meet the test requirements. So my team and I designed a new analytical instrument.
 
-{{< gallery dir="images/scent_camera/spec" class="" command="Fit" option="" zoomable="true" >}}
+{{<image src="images/scent_camera/spec/01.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}

@@ -13,20 +13,20 @@ A cross-major cooperation platform for college students is designed to help coll
 
 ### 1. Operation flow chart
 
-{{< gallery dir="images/space_station/flow" class="" command="Fit" option="" zoomable="true" >}}
+{{<gallery dir="images/space_station/flow" class="" command="Fit" option="" zoomable="false" >}}
 
 ### 2. Interface sketches
 
-{{< gallery dir="images/space_station/sketches" class="" command="Fit" option="" zoomable="true" >}}
+{{<gallery dir="images/space_station/sketches" class="" command="Fit" option="" zoomable="false" >}}
 
 ### 3. Low fidelity interface
 
-{{< gallery dir="images/space_station/low" class="" command="Fit" option="" zoomable="true" >}}
+{{<gallery dir="images/space_station/low" class="" command="Fit" option="" zoomable="false" >}}
 
 ### 4. High fidelity interface
 
-{{< gallery dir="images/space_station/high" class="" command="Fit" option="" zoomable="true" >}}
+{{<gallery dir="images/space_station/high" class="" command="Fit" option="" zoomable="true" >}}
 
 ### 5. User testing
 
-{{< gallery dir="images/space_station/iteration" class="" command="Fit" option="" zoomable="true" >}}
+{{<gallery dir="images/space_station/iteration" class="" command="Fit" option="" zoomable="false" >}}
