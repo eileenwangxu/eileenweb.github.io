@@ -100,6 +100,11 @@ experiences:
     date: "2018 - 2022"
     loc: "| Beijing, China"
     
+# misc
+misc:
+  - title: "[CCF推荐国际学术会议和期刊目录](https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/)"
+  - title: "[清华大学计算机学科群推荐学术会议和期刊列表](https://numbda.cs.tsinghua.edu.cn/~yuwj/TH-CPL.pdf)"
+  - title: "[Upcoming Conference](https://wangxu.ai/ddl/index.html)"
 
 # Features
 features:
