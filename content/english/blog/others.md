@@ -2,20 +2,28 @@
 title: "Other Works"
 meta_title: ""
 description: ""
-date: 2024-02-26T05:00:00Z
+date: 2025-01-10T05:00:00Z
 image: ""
 categories: ["Others"]
 author: "Ruiqing Wang"
 tags: ["Others"]
 draft: false
 ---
+### Main Organizer and Teaching Assistant at 2024 GIX Global Innovation Summer Camp in Seattle, United States
+Responsible for planning and implementing academic lectures and the innovation challenge competition. Invited ACM President Prof. Yannis, Prof. Ranjay and Prof. Vikram from UW CSE to give guest lectures, which were
+extremely engaging and well-received by the students. Planned the whole process for the innovation challenge, prepared programming tutorials and design tools, and gave two talks on ideation in design thinking and my sustainable development-related projects.
+{{<image src="/images/summercamp.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" zoomable="true">}}
+<hr>
+
 ### Main Leader of TopTalk Seminar, International Department of the Graduate Union, Tsinghua University
-Planned, organized, and promoted the 56th, 57th, and 58th TopTalk Seminar, nearly a thousand teachers and students participated. Hosted two seminars with Nobel laureates Jules Hoffmann and Anthony Leggett. Honored with the Outstanding Social Work Award.
+TopTalk Seminar fosters interactions between Tsinghua University students and world-renowned figures, including
+Nobel-level scientists, influential entrepreneurs and industry pioneers from diverse sectors globally. I planned, organized, and promoted the 56th, 57th, and 58th TopTalk Seminar, over 1000 teachers and students
+participated both online and in-person. Hosted two seminars with Nobel laureates Jules Hoffmann and Anthony Leggett respectively. Honored with the Outstanding Social Work Award.
 {{<image src="images/others/toptalk/toptalk.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" zoomable="true">}}
 <hr>
 
-### One of the Ceremony Chairs of 2023 ACM Turing Award Celebration Conference China
-Responsible for the reception of ACM President Prof. Yannis. Main organizer of the award ceremony and the co-designer of the conference visual identity system guideline. Honored with the Outstanding Contribution Award.
+### Outstanding Contribution as a Student Volunteer to 2023 ACM Turing Award Celebration Conference China
+Responsible for the reception of ACM President Prof. Yannis Ioannidis. Main organizer of the award ceremony and the co-designer of the conference visual identity system. My work was highly recognized by the conference chair, and was honored with the Outstanding Contribution Award.
 {{<image src="images/others/turc/turc.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" zoomable="true">}}
 <hr>
 
