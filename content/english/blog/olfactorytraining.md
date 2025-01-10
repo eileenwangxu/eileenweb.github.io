@@ -29,6 +29,7 @@ The design incorporates two notable innovations for enhanced usability:
 1. The device features modular components, allowing for flexible use by varying numbers of patients—ranging from one to four—simultaneously within a nursing home setting.
 2. It includes a disposable, easily replaceable flaring horn, which significantly improves hygiene standards.
 
+{{< video src="images/olfvideo480.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
 
 {{<gallery dir="images/olfactory_training/working/" class="" command="Fit" option="" zoomable="false" >}}
 
