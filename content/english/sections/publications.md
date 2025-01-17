@@ -18,7 +18,7 @@ publications:
     awards: ""
 
   - type: "Conference"
-    name: "CHI'25 R&R"
+    name: "CHI'25"
     title: "PPG Earring: Smart Wireless Earring for Heart Health Monitoring"
     author: "Qiuyue Xue, Dilini Nissanka, Tammy Yan, **Ruiqing Wang**, Shwetak Patel, Vikram Iyer"
     link: ""
@@ -30,7 +30,7 @@ publications:
     awards: ""
 
   - type: "Conference"
-    name: "CHI'25 R&R"
+    name: "CHI'25"
     title: "ECG Necklace: Low-power Wireless Necklace for Continuous ECG Monitoring"
     author: "Qiuyue Xue, Eric Martin, Jiaqing Liu, **Ruiqing Wang**, Antonio Glenn, Richard Li, Vikram Iyer, Shwetak Patel"
     link: ""

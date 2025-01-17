@@ -28,7 +28,7 @@ news:
     content: "Our project **Automatic Glass Pattern Design** was certified by **Chinese Institute of Electronics**."
 
 # Bio
-biography: "I am an HCI researcher, currently pursuing my dual Master's degree in Data Science and Information Technology at [Global Innovation Exchange (GIX)](https://gix.uw.edu/program/dual-degree/). **I am deeply interested in the intersection of embedded systems and digital fabrication for improving personalized healthcare accessibility.** My goal is to build ubiquitous, aesthetic, and affordable systems that promote health awareness and well-being by enabling machines to intuitively understand, interact with, and empower individuals with diverse abilities."
+biography: "I am an HCI researcher, currently pursuing my dual Master's degree in Data Science and Information Technology at [Global Innovation Exchange (GIX)](https://gix.uw.edu/graduate/dual-degree), Tsinghua University and the University of Washington. **I am deeply interested in the intersection of embedded systems and digital fabrication for improving personalized healthcare accessibility.** My goal is to build ubiquitous, aesthetic, and affordable systems that promote health awareness and well-being by enabling machines to intuitively understand, interact with, and empower individuals with diverse abilities."
 
 # Other
 others: 
