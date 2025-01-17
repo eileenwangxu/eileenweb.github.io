@@ -49,11 +49,11 @@ publications:
     link: "https://ieeexplore.ieee.org/document/10763767"
     publisher: "IEEE International Conference on Parallel and Distributed Systems"
     date: "August 2024"
-    pdf: ""
+    pdf: "BuildEnVR_An_Immersive_Analysis_System_for_Environmental_Field.pdf"
     slides: ""
     video: ""
     awards: ""
-
+    
 
   - type: "Journal"
     name: "CCPPG'23"
