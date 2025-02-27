@@ -24,9 +24,9 @@ publications:
     link: "https://chi2025.acm.org"
     publisher: "ACM CHI conference on Human Factors in Computing Systems"
     date: "January 2025"
-    pdf: ""
+    pdf: "chi25b-sub3194-cam-i16.pdf"
     slides: ""
-    video: ""
+    video: "https://youtu.be/8A2yWW6dw7M"
     awards: ""
 
   - type: "Conference"
@@ -36,9 +36,9 @@ publications:
     link: "https://chi2025.acm.org"
     publisher: "ACM CHI conference on Human Factors in Computing Systems"
     date: "January 2025"
-    pdf: ""
+    pdf: "chi25b-sub9856-cam-i16.pdf"
     slides: ""
-    video: ""
+    video: "https://youtu.be/LqP-yH8sapY"
     awards: ""
 
 

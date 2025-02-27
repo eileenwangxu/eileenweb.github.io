@@ -39,7 +39,7 @@ others:
 experiences:
   - title: "University of Washington"
     logo: "/images/uw2.jpg"
-    institution: "M.S. Technology Innovation, GIX"
+    institution: "MSTI Computer Science, GIX"
     advisor: ""
     date: "2023 - 2025"
     loc: "| Seattle, Washington, US"
@@ -60,9 +60,9 @@ experiences:
 
   - title: "Tsinghua University"
     logo: "/images/tsinghua-small.png"
-    institution: "M.S.E. Data Science & Information Technology, GIX"
+    institution: "M.S. Data Science & Information Technology, GIX"
     advisor: "Advisor: Prof. Yunhao Liu"
-    date: "2022 - 2023"
+    date: "2022 - 2025"
     loc: "| Beijing, China"
 
   - title: "Institute of Trustworthy Networks and Systems in Tsinghua University"
@@ -76,7 +76,7 @@ experiences:
     logo: "/images/fuyao.png"
     institution: "Research Internship"
     advisor: "Liang Li (Department Lead)"
-    date: "2022"
+    date: "2023"
     loc: "| Fuzhou, China"
 
   - title: "The Future Laboratory in Tsinghua University"
@@ -93,12 +93,12 @@ experiences:
   #   date: "2021"
   #   loc: "| Shanghai, China"
 
-  # - title: "User Experience Department in Baidu"
-  #   logo: "/images/baidu3.png"
-  #   institution: "Internship"
-  #   advisor: ""
-  #   date: "2020"
-  #   loc: "| Beijing, China"
+  - title: "User Experience Department in Baidu"
+    logo: "/images/baidu3.png"
+    institution: "Internship"
+    advisor: ""
+    date: "2020"
+    loc: "| Beijing, China"
 
   - title: "Beijing University of Technology"
     logo: "/images/bjut.png"
